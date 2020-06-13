@@ -11,6 +11,11 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /*Add for mi*/
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
@@ -250,8 +255,8 @@ textarea {
     top: 0px;
 
     margin: auto;
-    background-color: #3498db;
-    text-shadow: #2084c7 1px 1px 0;
+    background-color: #572364;
+    text-shadow: #572364 1px 1px 0;
     padding: 1em 0 !important;
     color: white;
     text-align: center;
